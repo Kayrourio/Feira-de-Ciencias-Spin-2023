@@ -1,0 +1,415 @@
+p {
+    font-family: sans-serif;
+}
+/* h1{
+    font-family: ;
+}
+h3{
+    font-family: ;
+}
+nav a{
+    font-family: ;
+} */
+
+
+body, ul{
+    margin: 0;
+    padding: 0;
+
+}
+section{
+    width: auto;
+    height: 600px;
+}
+section:first-of-type{
+    height: 750px;
+}
+section:last-of-type{
+    height: 400px;
+}
+#introduction {
+    position: relative;
+    overflow: hidden;
+}
+
+#introduction_video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1; /* Coloca o vídeo atrás de todos os outros elementos */
+}
+nav{
+    background-color: #E63946;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+} 
+
+nav ul{
+    display: inline-block;
+    margin-right: 30px;
+    float: right;
+} 
+li{
+    display: inline-block;
+    margin: 20px 25px 0px 0px;
+    list-style-type: none;
+    overflow: hidden;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.introduction_logo{
+    background-color: black;
+    display: inline;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 5px;
+} 
+.introduction_text{
+    margin: 200px 0 0 100px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+}
+.introduction_title{
+    margin: 0;
+    font-size: 60px;
+}
+.introduction_subtitle{
+    margin: 0 0 0 5px;
+    font-size: 18px;
+}
+
+.left_side {
+    display: inline-block;
+    position: relative;
+    top: 301px;
+    width: 100%;
+    height: 200px;
+    background: #fff;
+    clip-path: polygon(50% 50%, 0% 50%, 0% 0%);
+}
+.right_side{
+    display: inline-block;
+    position: relative;
+    top: 97px;
+    width: 100%;
+    height: 200px;
+    background: #fff;
+    clip-path: polygon(100% 0%, 50% 50%, 100% 50%);
+    z-index: 1;
+}
+.work_idea_text{
+    width: 60%;
+    margin: 0 20% 0 20%;
+    padding-top: 130px;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.eletric_motor_introduction_image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 40%;
+    height: 600px;
+}
+.eletric_motor_introduction_info{
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    background-color: #E63946;
+    float: right;
+    color: #fff;
+
+}
+.eletric_motor_introduction_title{
+    display: inline-block;
+    margin: 30px 0 0 0;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+} 
+.eletric_motor_introduction_text{   
+    display: inline-block;
+    margin: 20px 10% 0 10%;
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+}
+.eletric_motor_introduction_link{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.eletric_motor_explantion_title{
+    display: block;
+    margin: 50px 0 20px 50px;
+    font-size: 40px;
+}
+.eletric_motor_explantion_text{
+    display: inline-block;
+    width: 40%;
+    margin: 0 0 0 50px;
+    padding: 20px 0 0 0;
+    font-size: 15px;
+}
+.eletric_motor_explantion_image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 50%;
+    height: 80%;
+    margin: 0 50px 0 0;
+    float: right;
+}
+#hyperloop_image{
+    background-image: url('cat3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.hyperloop_image_title{
+    position: relative;
+    top: 40%;
+    margin: 0;
+    font-size: 60px;    
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+
+}
+
+.eletromagnetic_train_introduction_title{
+    position: relative;
+    top: 50px;
+    display: block;
+    margin: 0px 0 20px 50px;
+    font-size: 40px;
+    color: #fff;
+}
+.eletromagnetic_train_introduction_text{
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    width: 40%;
+    margin: 0 0 0 50px;
+    padding: 20px 0 0 0;
+    font-size: 15px;
+    color: #fff;
+
+}
+.eletromagnetic_train_introduction_image{
+    background-image: url('cat4.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 50%;
+    height: 80%;
+    margin: 0 50px 0 0;
+    float: right;
+}
+#eletromagnetic_train_data, #eletromagnetic_train_introduction{
+    background-color: #EF233C;
+}
+.eletromagnetic_train_explanation_title{
+    display: block;
+    margin: 50px 150px 20px 0;
+    font-size: 40px;
+    float: right;
+}
+.eletromagnetic_train_explanation_text{
+    display: inline-block;
+    width: 40%;
+    margin: 0 0 0 50px;
+    padding: 20px 0 0 0;
+    font-size: 15px;
+    float: right;
+}
+.eletromagnetic_train_explanation_image{
+    background-image: url('cat5.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 50%;
+    height: 80%;
+    margin: 50px 50px 0 50px;
+    float: left;
+}
+
+.eletromagnetic_train_data_title{
+    display: block;
+    position: relative;
+    top: 50px;
+    margin: 0px 0 20px 50px;
+    font-size: 40px;
+    color: #fff;
+
+}
+.eletromagnetic_train_data_text{
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    width: 40%;
+    margin: 0 0 0 50px;
+    padding: 20px 0 0 0;
+    font-size: 15px;
+    color: #fff;
+
+}
+.eletromagnetic_train_data_image{
+    background-image: url('cat6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 50%;
+    height: 80%;
+    margin: 0 50px 0 0;
+    float: right;
+}
+.eletromagnetic_train_benefits_title{
+    display: block;
+    margin: 50px 0 20px 50px;
+    font-size: 40px;
+}
+.eletromagnetic_train_benefits_text{
+    display: inline-block;
+    position: relative;
+    top: -18%;
+    width: 32%;
+    margin: 0 3% 0 50px;
+    padding: 20px 0 0 0;
+    font-size: 18px;
+}
+#eletromagnetic_train_benefits div{
+    background-color: #fff;
+    display: inline-block;
+    position: relative;
+    top: -12%;
+    width: 200px;
+    height: 300px;
+    margin: 0 30px 0 0;
+    text-align: center;
+}   
+section div #eletromagnetic_train_benefits_economy{
+    background: url('dollar.png') #E63946 no-repeat center;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    border-radius: 50%;
+}
+section div #eletromagnetic_train_benefits_transport{
+    background: url('car.png') #E63946 no-repeat center;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    border-radius: 50%;
+}
+section div #eletromagnetic_train_benefits_sustentability{
+    background: url('cardiogram.png') #E63946 no-repeat center;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    border-radius: 50%;
+}
+section div #eletromagnetic_train_benefits_health{
+    background: url('ecology.png') #E63946 no-repeat center;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    border-radius: 50%;
+} 
+#eletromagnetic_train_benefits > div {
+    transition: 0.5s;
+}
+#eletromagnetic_train_benefits > div:hover {
+    translate: 0px -3px;
+}
+
+
+
+footer{
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+.footer{
+background:#db1c32;
+padding:30px 0px;
+font-family: 'Play', sans-serif;
+text-align:center;
+}
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:white;
+font-size:0.8em;
+}
+
+.footer .row a{
+    text-decoration:none;
+    color: white;
+    transition:0.5s;
+}
+.footer .row a img{
+    width:32px;
+    height:32px;
+    margin: 0 5px 0 5px;
+    transition:0.5s;
+}
+.footer .row a img:hover{
+    translate: 0px -3px;
+}
+.footer .row a:hover{
+    color:#000;
+    translate: 0px -3px; 
+}
+
+.footer .row ul li{
+    display:inline-block;
+    margin:0px 20px;
+}
+
+.footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+}
+
+@media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+}
